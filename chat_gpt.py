@@ -3,7 +3,7 @@ from chatbot import get_response
 import datetime
 import pandas as pd
 
-st.set_page_config(page_title="ChatGPT external API", page_icon="🧠")
+st.set_page_config(page_title="ChatGPT API app", page_icon="🧠")
 
 # Language
 language = st.selectbox("🌐 Vyber jazyk / Select language", ["Čeština", "English"])
